@@ -103,6 +103,7 @@ clear
 export PF_ASCII="openbsd"
 export PATH=$HOME/mongodb:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
+export PATH="/usr/local/bin:$PATH"
 alias im="imgur-upload"
 alias ovd="/Applications/Open\ Video\ Downloader.app/Contents/MacOS/Open\ Video\ Downloader --ffmpeg-location /usr/bin/ffmpeg"
 alias commit="git add . && git commit -m $1"
